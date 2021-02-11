@@ -1,0 +1,136 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+
+.navbar-nav{
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.ml-auto{
+  position: relative;
+  left: 59%;
+}
+
+/* image wallpaper */
+div .text-block{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen(max: 1000px) {
+  div .text-block{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+}
+
+.text-block h2{
+  font-family: 'Stylish', sans-serif;
+}
+
+.text-block h2 span{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* about */
+#about{
+  text-align: center;
+  padding: 4% 12%;
+  line-height: 2em;
+}
+
+#about p{
+  font-size: 20px;
+}
+
+
+
+/* services */
+#service{
+  text-align: center;
+  padding: 4% 12%;
+  line-height: 2em;
+  background-color: #D3D3D3;
+}
+
+#service p{
+  font-size: 20px;
+}
+
+/*  */
+#carouselExampleControls{
+  padding: 2% 14%;
+}
+#carouselExampleControls img{
+  width:100px;
+  height:500px;
+  object-fit:cover;
+  border-radius:5%;
+}
+
+
+/* contact */
+#contact{
+
+  padding: 2% 12%;
+  line-height: 2em;
+}
+
+#contact .card-img-top{
+  width: 50%;
+  height: 100%;
+}
+
+#contact .contact{
+  text-align: center;
+  padding: 4% 12%;
+  line-height: 2em;
+}
+
+#contact .container{
+  margin: 0%;
+  padding: 5% 13%;
+  background-color: #D3D3D3;
+  font-size: 20px;
+}
+
+/* footer */
+#footer{
+  height: 140px;
+  background-color: #000;
+}
+
+#footer p{
+  padding-top: 2%;
+  font-size: 20px;
+  color: #D3D3D3;
+  text-align: center;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer i {
+  padding: 0% 3%;
+}
