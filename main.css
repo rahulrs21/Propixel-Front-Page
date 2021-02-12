@@ -27,7 +27,7 @@ html{
 /* image wallpaper */
 .textblock{
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   left: 35%;
   background-color: #ffffff00;  /* transparent color code */
   color: #fff;
