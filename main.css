@@ -19,43 +19,57 @@ html{
   left: 20px;
 }
 
-.ml-auto{
+/* .ml-auto{
   position: relative;
   left: 59%;
-}
+} */
 
 /* image wallpaper */
-div .text-block{
+.textblock{
   position: absolute;
-  top: 60%;
-  left: 40%;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media screen(max: 1000px) {
-  div .text-block{
-    position: absolute;
-    top: 30%;
-    left: 15%;
-  }
-}
-
-.text-block h2{
+  bottom: 50%;
+  left: 35%;
+  background-color: #ffffff00;  /* transparent color code */
+  color: #fff;
+  padding: 1% 4%;
+  border-radius: 100px;
   font-family: 'Stylish', sans-serif;
 }
 
-.text-block h2 span{
+@media (max-width: 900px) {
+  .textblock{
+    position: absolute;
+    top: 28%;
+    left: 25%;
+  }
+}
+
+/* .text-block h2{
+  font-family: 'Stylish', sans-serif;
+} */
+
+.textblock .span_font{
   font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+
 }
 
 /* about */
 #about{
   text-align: center;
   padding: 4% 12%;
-  line-height: 2em;
+}
+
+#about .give_space{
+  padding: 4% 6%;
+}
+
+@media (max-width: 900px){
+  #about .give_space{
+    padding: 2% 15%;
+  }
 }
 
 #about p{
@@ -98,6 +112,15 @@ div .text-block{
 #contact .card-img-top{
   width: 50%;
   height: 100%;
+}
+
+@media (max-width: 900px){
+  #contact .card-img-top{
+    width: 50%;
+    height: 90%;
+    position: relative;
+    left: 80px;
+  }
 }
 
 #contact .contact{
