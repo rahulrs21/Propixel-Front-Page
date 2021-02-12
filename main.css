@@ -39,7 +39,6 @@ html{
 @media (max-width: 900px) {
   .textblock{
     position: absolute;
-    top: 10%;
     left: 25%;
   }
 }
